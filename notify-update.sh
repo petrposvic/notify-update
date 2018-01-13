@@ -1,4 +1,10 @@
 #!/bin/bash
+# Simple script to check updates and send notification e-mail
+#
+# apt-get needs root permissions. Start this script with sudo.
+#
+# If sendemail throws error: No TLS support! SendEmail can't load required libraries. (try installing Net::SSLeay and IO::Socket::SSL)
+# install both libraries: apt install libnet-ssleay-perl libio-socket-ssl-perl
 
 MAIL_TO="petr@posvic.cz"
 MAIL_FROM="notification@posvic.cz"
